@@ -3,13 +3,47 @@
 
     .nav .container{
         text-align: center;
-        flex-direction: column;
-        gap: 40px;
-        
-    }
-    .nav .container .nav-links{
-        flex-direction: column;
+        gap: 40px;   
     }
 
+    .nav .container .nav-links{
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+        gap: 10px;
+        display: none ;
+    }
+
+    .nav label{
+       display: block !important; 
+       margin: 0 !important;   
+    }
+     .nav label span{
+        margin-top: 8px;
+     }
+
     
+    .nav .nav-icon{
+        width: 100%;
+        display: flex !important;
+         align-items: center;
+         justify-content: space-between;
+
+    }
+    .nav-info{
+   
+    justify-content: flex-start !important;
+    width: 100%;  
+    display: none !important;
+}  
+
+.nav #checkbox:checked ~ .nav-links,
+  .nav #checkbox:checked ~ .nav-info {
+      display: flex !important; 
+  }
+
+  /* To DO */
+  .mega-menu{
+    display: none !important;
+  }
 }
