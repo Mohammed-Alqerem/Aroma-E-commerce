@@ -1,6 +1,7 @@
 
 @media screen and (max-width:1074px) {
-
+ 
+    /* start navbar */
     .nav .container{
         text-align: center;
         gap: 40px;   
@@ -46,4 +47,6 @@
   .mega-menu{
     display: none !important;
   }
+      /* end navbar */
+
 }
