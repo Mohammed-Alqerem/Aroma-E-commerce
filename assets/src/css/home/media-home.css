@@ -1,0 +1,44 @@
+
+@media screen and (max-width:772px) {
+
+
+
+      .header .container .img-header {
+        display: none;
+    }  
+
+    .header::before{
+        width: 20%;
+    }
+
+    .text-header{
+        margin-top: 60px !important;
+        flex: 1;
+        margin-left: 55px !important;
+    }
+
+    
+}
+
+
+@media screen and (max-width:580px){
+
+
+    .header a{
+        padding:10px 20px !important;
+    }
+
+     .text-header{
+
+       padding-top: 0 !important;
+    }
+
+    .nav .container{
+        width: 100% !important;
+    }
+
+  
+   
+
+
+}

@@ -37,7 +37,7 @@ a{
     box-shadow: 0 0 7px 3px #eee;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 999;
 
 }
 
