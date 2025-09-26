@@ -44,9 +44,17 @@
   }
 
   /* To DO */
-  .mega-menu{
-    display: none !important;
-  }
+  .nav .nav-links li:hover .mega-menu{
+
+    display: inherit !important;
+    position:  unset !important;
+     width: 100%;
+}
+
+.nav-links li{
+   width: 200px;
+}
+
       /* end navbar */
 
 }

@@ -62,7 +62,7 @@ a{
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
-    padding: 20px 0;
+    padding: 20px 5px;
 }
 .nav-links li:hover a{
 
@@ -72,6 +72,7 @@ a{
 
 .nav-links li{
     padding: 15px 5px;
+   
 }
 
 .nav-links li a.active{
