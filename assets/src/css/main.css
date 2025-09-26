@@ -54,7 +54,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 45px;
-    margin-top: 18px;
 }
 .nav-links li a{
     color: #222222;
