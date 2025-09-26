@@ -22,15 +22,6 @@
      .nav label span{
         margin-top: 8px;
      }
-
-    
-    .nav .nav-icon{
-        width: 100%;
-        display: flex !important;
-         align-items: center;
-         justify-content: space-between;
-
-    }
     .nav-info{
    
     justify-content: flex-start !important;
