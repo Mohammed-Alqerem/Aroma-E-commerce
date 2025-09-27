@@ -50,6 +50,12 @@
     color: var(--main-color);
 }
 
+.header img{
+    position: relative;
+    top: 50px;
+
+}
+
 
 /* end header */
 
