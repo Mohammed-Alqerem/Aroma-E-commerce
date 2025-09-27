@@ -9,7 +9,7 @@
     --main-color:#3749e8;
 }
 
-
+/* start header */
 .header{
     background-color: #f1f6f7;
     position: relative;
@@ -49,3 +49,13 @@
     background-color: #fff;
     color: var(--main-color);
 }
+
+
+/* end header */
+
+
+/* start product */
+
+
+
+/* end product */
