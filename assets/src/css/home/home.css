@@ -29,7 +29,7 @@
 }
 
 
-.header-btn{
+.main-btn{
     width: fit-content;
     background-color: var(--main-color) ;
     border-radius: 50px;
@@ -46,7 +46,7 @@
     border: solid 1px var(--main-color);
 }
 
-.header-btn:hover{
+.main-btn:hover{
     background-color: #fff;
     color: var(--main-color);
 }
@@ -202,3 +202,15 @@
 
 
 /* end trending product */
+
+
+
+
+/* start WinterSale */
+
+.winter-sale{
+    background-image: url(./parallax-bg.webp);
+    background-size: cover;
+}
+
+/* end WinterSale */

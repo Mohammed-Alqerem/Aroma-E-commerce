@@ -37,8 +37,19 @@
         width: 100% !important;
     }
 
-  
-   
-
-
 }
+
+
+@media screen and (max-width:522px){
+    
+    .winter-sale{
+        padding: 0 !important;
+    }
+    .winter-sale .container{
+        padding: 10px !important;
+    }
+
+   .winter-sale .main-btn{
+    padding: 10px 20px !important;
+   }
+} 
