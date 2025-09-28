@@ -223,3 +223,48 @@
 }
 
 /* end WinterSale */
+
+
+/* start laters news */
+.latest-news .container .card .card-link{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.latest-news .container .card:hover .card-link{
+
+    color: var(--main-color) !important;
+}
+
+.latest-news .container .card .card-title{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.latest-news .container .card:hover .card-title{
+    color: var(--main-color) !important;
+}
+
+.latest-news .container .card:hover .card-link span i{
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+
+.latest-news .container .card .card-link span i{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+/* end laters news */
