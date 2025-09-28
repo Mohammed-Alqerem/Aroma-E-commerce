@@ -284,15 +284,6 @@
     align-items:flex-start;
     gap: 5px;
 }
-.footer .image-holder img{
-
-    max-width: 100%;
-}
-
-.footer .image-holder img li{
-    flex:1 0 calc((100% - 5px)/ 2) ;
-}
-
 
 .footer .text-info span{
     background-color: var(--main-color);
