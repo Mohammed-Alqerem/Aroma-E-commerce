@@ -131,16 +131,19 @@
     left: 0;
     
 }
-.trending-product .image-holder img{
+.trending-product .image-holder img,
+.best-sellers .image-holder img{
     max-width: 100%;
     width: 100%;
 }
 
-.trending-product .image-holder{
+.trending-product .image-holder,
+.best-sellers .image-holder{
     position: relative;
 }
 
-.trending-product .image-holder .info{
+.trending-product .image-holder .info,
+ .best-sellers  .image-holder .info{
     background-color: rgba(255, 255, 255, 0.8);
     position: absolute;
     top: 90%;
@@ -161,16 +164,19 @@
     -o-transition: .4s;
 }
 
-.trending-product .box:hover .info{
+.trending-product .box:hover .info,
+ .best-sellers .box:hover .info{
     top: 85%;
     opacity: 1;
     
 }
 
-.trending-product .image-holder .info button i{
+.trending-product .image-holder .info button i,
+  .best-sellers .image-holder .info button i{
     color: #fff;
 }
-.trending-product .image-holder .info button{
+.trending-product .image-holder .info button,
+ .best-sellers .image-holder .info button{
     border: none;
     outline: none;
     background-color: var(--main-color);
@@ -183,18 +189,21 @@
     -o-transition: .4s;
 }
 
-.trending-product .image-holder .info button:hover{
+.trending-product .image-holder .info button:hover,
+.best-sellers .image-holder .info button:hover{
     opacity: 1;
 }
 
-.trending-product .box h5{
+.trending-product .box h5
+, .best-sellers .box h5{
     transition: .4s;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
 }
-.trending-product .box:hover h5{
+.trending-product .box:hover h5,
+.best-sellers .box:hover h5{
 
     color: var(--main-color);
 
