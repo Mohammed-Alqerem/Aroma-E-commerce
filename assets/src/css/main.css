@@ -293,6 +293,21 @@ a{
     ;
 }
 
+
+.footer ul li a{
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.footer ul li a:hover{
+
+    color: var(--main-color) !important;
+
+}
+
 .copy-rihgt{
     background-color: #05274b;
 }
