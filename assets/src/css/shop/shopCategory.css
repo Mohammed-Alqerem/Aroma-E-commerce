@@ -10,3 +10,40 @@
     height: 60vh;
 
 }
+
+/* start shop-category */
+.shop-category .container select{
+    outline: none;
+}
+
+
+.shop-category .container .card{
+    border: none;
+    background-color: #f1f6f7;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #fff;
+    
+}
+
+.shop-category .container .card .card-header{
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.sorting-category{
+    background-color: #f1f6f7;
+}
+
+
+
+
+/* end shop-category */
