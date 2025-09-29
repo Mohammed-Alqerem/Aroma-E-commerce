@@ -278,6 +278,9 @@
 
 .contact-us .container{
   box-shadow: 0px -5px 20px 0px rgba(56, 74, 235, 0.1);
+  background-color: #fff;
+  position: relative;
+  top: 100px;
   
 }
 
