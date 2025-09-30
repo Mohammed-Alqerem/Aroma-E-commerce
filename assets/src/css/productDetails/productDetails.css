@@ -1,3 +1,16 @@
 :root{
     --main-color:#3749e8;
 }
+
+
+
+
+.product-details  .text-info,
+.product-details  .text-bodys{
+
+    border-bottom: 1px solid #eeeeee ;
+}
+
+.main-price-color{
+    color: var(--main-color);
+}
