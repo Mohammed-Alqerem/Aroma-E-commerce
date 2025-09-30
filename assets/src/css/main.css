@@ -330,9 +330,11 @@ a{
 .top-product .row .col-12:hover h5{
 
     color: var(--main-color);
+}
 
 
-
+.top-product .image-holder{
+    cursor: pointer;
 }
 
 
