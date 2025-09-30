@@ -29,3 +29,40 @@
     background-color: #fff;
     box-shadow: 0 0 3px 5px rgb(234, 234, 234);
 }
+
+
+
+
+
+
+/* start reviews  */
+
+
+.reviews .nav{
+    box-shadow: 0 0 0 0 transparent !important;
+    background-color: #e8f0f2;
+}
+
+.reviews .nav  .nav-item button.active{
+    background-color: var(--main-color) !important;
+    color: #fff;
+
+}
+
+.reviews .nav  .nav-item button{
+    color: black;
+    background-color: #fff !important;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.reviews .container .info .text p{
+    font-size: 14px;
+}
+
+
+/* end reviews  */
