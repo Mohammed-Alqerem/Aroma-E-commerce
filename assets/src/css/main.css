@@ -320,6 +320,20 @@ a{
 
 .top-product h5{
     font-size: 15px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
 }
+
+.top-product .row .col-12:hover h5{
+
+    color: var(--main-color);
+
+
+
+}
+
 
 /* end top-produt */
