@@ -14,3 +14,18 @@
 .main-price-color{
     color: var(--main-color);
 }
+
+.my-socials button{
+    background-color: #e8f0f2;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+.my-socials button:hover{
+    background-color: #fff;
+    box-shadow: 0 0 3px 5px rgb(234, 234, 234);
+}
