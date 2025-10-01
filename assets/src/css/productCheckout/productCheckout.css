@@ -1,3 +1,18 @@
 :root{
     --main-color:#3749e8;
 }
+
+
+.second-color{
+    background-color: #f1f6f7;
+}
+
+.link-under{
+    text-decoration: underline;
+}
+
+
+
+.check-customer p{
+    font-size: 14px;
+}
