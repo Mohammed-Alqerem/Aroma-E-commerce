@@ -135,7 +135,7 @@
 
         <div class="container-lg  container-fluid ">
            
-            <div class="row p-2 ps-4 gap-4">
+            <div class="row p-2  gap-4">
 
                 <div class="col-12">
                      <div class=" second-color p-2 ps-4">Returning Customer? <a class="link-under" href="#">Click here to login</a></div>
@@ -175,11 +175,162 @@
                     <div class="row">
                         <div class="col-xxl-9 col-sm-12">
                         <input type="text" class="form-control"  placeholder="Enter coupon code">
+                        <button class="main-btn d-block p-2 ps-3 pe-3 mt-4">Apply Coupon</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- stop here -->
+
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-xxl-8 col-xl-8 col-sm-12">
+                      <div class="row gap-3">
+                        <div class="col-12">
+                          <h6  class="fw-bold border-bottom pb-3">Billing Details</h6>
+                        </div>
+    
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-sm-12">
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-sm-12">
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control" placeholder="Company name">
+                        </div>
+    
+                        <div class="col-12">
+                          <select class="form-select text-secondary" aria-label="Default select example">
+                            <option value="1">Country</option>
+                            <option value="2">Country</option>
+                            <option value="3">Country</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control">
+                        </div>
+                        
+                        <div class="col-12">
+                          <select class="form-select text-secondary" aria-label="Default select example">
+                            <option value="1">District</option>
+                            <option value="2">District</option>
+                            <option value="3">District</option>
+                          </select>
+                        </div>
+                         <div class="col-12">
+                          <input type="text" class="form-control" placeholder="Postcode/ZIP">
+                          
+                        </div>
+    
+                        <div class="col-12">
+                          <div>
+                            <input type="checkbox" id="create">
+                            <label for="create" class="text-secondary">Create an account?</label>
+                        </div>
+                        </div>
+    
+                         <div class="col-12">
+                          <h6 class="fw-bold border-bottom pb-3">Shipping Details</h6>
+                        </div>
+    
+                          <div class="col-12">
+                          <div>
+                            <input type="checkbox" id="diff-address">
+                            <label for="diff-address" class="text-secondary">Ship to a different address?</label>
+                        </div>
+                        </div>
+    
+                        <div class="col-12">
+                          <div class="form-floating">
+                          <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Order Notes"></textarea>
+                          </div>
+                          </div>             
+                        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+                      </div>
+    
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-4 col-sm-12">
+                      <div class="row p-xxl-5 p-xl-5 p-lg-5 p-3 second-color gap-3">
+                        <div class="col-12 pt-5 ">
+                          <h6  class="fw-bold border-bottom pb-3">Your Order</h6>
+                           <ul class="  d-flex flex-column gap-3">
+                            <li><a href="#"><span>Product</span> <span>Total</span></a></li>
+                            <li><a href="#"><span class="text-secondary">Fresh Blackberry </span> <span>x 02</span> <span class="text-secondary">$720.00</span></a></li>
+                            <li><a href="#"><span class="text-secondary">Fresh Tomatoes </span> <span>x 02</span> <span class="text-secondary">$720.00</span></a></li>
+                            <li><a href="#"><span class="text-secondary">Fresh Brocoli </span> <span>x 02</span> <span class="text-secondary">$720.00</span></a></li>
+                            <li><a href="#"><span>Subtotal</span> <span class="text-secondary">$2160.00</span></a></li>
+                            <li><a href="#"><span>Shipping  </span> <span class="text-secondary">Flat rate: $50.00</span></a></li>
+                            <li><a href="#"><span>Total</span> <span>$2210.00</span></a></li>
+
+
+                           </ul>
+                        </div>
+                        <div class="col-12">
+                           <div>
+                            <input type="radio" id="payments">
+                            <label for="payments" class="text-secondary">Check payments</label>
+                        </div>
+                        </div>
+
+                        <div class="col-12  bg-white">
+                          <p class="p-3 mb-0 text-secondary">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                        </div>
+                         <div class="col-12 d-flex  justify-content-between">
+                           <div class="d-flex justify-content-between gap-3">
+                            <input type="radio" id="card-payments">
+                            <label for="card-payments" class="text-secondary ">Check payments  <img class=" ms-5" src="./assets/images/card.webp" alt="card-payments"></label>
+                        </div>
+                        </div>
+
+                        <div class="col-12  bg-white">
+                          <p class="p-3 mb-0 text-secondary">Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                        </div>
+
+                         <div class="col-12">
+                           <div>
+                            <input type="checkbox" id="check-accept">
+                            <label for="check-accept" class="size-sm">I’ve read and accept the <a href="#">terms & conditions*</a></label>
+                        </div>
+
+                        </div>
+                        <div class="col-12">
+                          <button class="main-btn d-block w-100 pt-2 pb-2">Proceed Paypal</button>
+                        </div>
+
+
+                        
+                        
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+
                  
 
 

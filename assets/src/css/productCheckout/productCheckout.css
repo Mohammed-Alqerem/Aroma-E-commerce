@@ -16,3 +16,16 @@
 .check-customer p{
     font-size: 14px;
 }
+
+
+.check-customer ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.size-sm{
+    font-size: 14px;
+}
