@@ -9,6 +9,15 @@
     --main-color:#3749e8;
 }
 
+
+.main-color{
+    color: #3749e8;
+}
+
+.second-color{
+    background-color: #f1f6f7;
+}
+
 ul{
     list-style-type: none;
     padding-left: 0 !important;
@@ -18,10 +27,18 @@ a{
     text-decoration: none;
 }
 
+.text-sm-size{
+    font-size: 15px;
+}
+
 .container{
     width: 80%;
     margin: auto;
 
+}
+
+.grow-more{
+    flex-grow: 2;
 }
 
 
