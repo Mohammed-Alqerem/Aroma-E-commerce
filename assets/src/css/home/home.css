@@ -227,7 +227,7 @@
 /* start WinterSale */
 
 .winter-sale{
-    background-image: url(./parallax-bg.webp);
+    background-image: url(./../../../images/parallax-bg.webp);
     background-size: cover;
 }
 
