@@ -91,6 +91,14 @@ input{
 }
 
 
+textarea{
+    outline: none;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
 /* start navbar */
 
 
