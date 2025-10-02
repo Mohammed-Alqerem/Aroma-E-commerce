@@ -71,6 +71,20 @@ input{
          border-color: #c5322d;
 }
 
+.register-btn{
+    font-size: 14px;
+         background-color: #c5322d;
+         transition: .4s;
+         -webkit-transition: .4s;
+         -moz-transition: .4s;
+         -ms-transition: .4s;
+         -o-transition: .4s;
+}
+
+.register-btn:hover{
+    opacity: .5;
+}
+
 .shadow-register-login{
 
   box-shadow: 0 2px 20px rgba(55, 73, 232, 0.3);
