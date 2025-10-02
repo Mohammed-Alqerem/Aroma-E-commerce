@@ -41,6 +41,41 @@ a{
     flex-grow: 2;
 }
 
+.login-register-color{
+    background-color: #4b5ced;
+}
+
+input{
+    outline: none;
+}
+
+.btn-register-login{
+    border: solid 1px;
+    border-radius: 50px;
+    border-color: #fff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: fit-content;
+}
+
+.btn-register-login:hover{
+
+         background-color: #c5322d;
+         border-color: #c5322d;
+}
+
+.shadow-register-login{
+
+  box-shadow: 0 2px 20px rgba(55, 73, 232, 0.3);
+}
+
 
 /* start navbar */
 
