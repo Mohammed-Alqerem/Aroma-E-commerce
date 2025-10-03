@@ -240,6 +240,22 @@
     font-size: 14px;
 }
 
+.instagram-photo img{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.instagram-photo img:hover{
+    transform:scale(1.1) rotate(4deg) ;
+    -webkit-transform:scale(1.1) rotate(4deg) ;
+    -moz-transform:scale(1.1) rotate(4deg) ;
+    -ms-transform:scale(1.1) rotate(4deg) ;
+    -o-transform:scale(1.1) rotate(4deg) ;
+}
+
 @media screen and (max-width:490px) {
 
     .flex{
