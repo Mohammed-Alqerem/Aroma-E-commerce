@@ -101,3 +101,94 @@
     color: var(--main-color);
 
 }
+
+
+.blog-info-link p{
+   
+    cursor: pointer;
+}
+.blog-info-link p span{
+     transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.blog-info-link p:hover span{
+  
+    color: var(--main-color) !important;
+}
+
+
+.special-search::placeholder{
+    color: #fff;
+}
+
+.special-search{
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+ button{
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    position: absolute;
+    right: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+ button i{
+    
+    color: #fff !important;
+}
+
+.special-bg{
+    background-color: #fafaff;
+
+}
+
+
+.image-size{
+    width: 120px;
+}
+
+
+.socials li a i{
+    color: black;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+
+.socials li:hover a i{
+   color: var(--main-color);
+}
+
+.h6{
+    background-color: var(--main-color);
+}
+
+
+
+@media screen and (max-width:490px) {
+
+    .flex{
+        flex-wrap: wrap;
+    }
+    
+}
