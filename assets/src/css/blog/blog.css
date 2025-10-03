@@ -256,6 +256,14 @@
     -o-transform:scale(1.1) rotate(4deg) ;
 }
 
+.blog-details .socials li a i{
+    opacity: .5;
+}
+
+.blog-details .socials li:hover a i {
+    opacity: 1;
+    color: black;
+}
 @media screen and (max-width:490px) {
 
     .flex{

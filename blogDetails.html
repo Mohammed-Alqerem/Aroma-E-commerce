@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shop the latest fashion, trending products, and best deals at Aroma Store. Fast delivery, secure checkout, and exclusive offers await you.">
+<meta name="keywords" content="Aroma, eCommerce, Store, Shop, Online Shopping, Fashion, Trending Products">
+  <title>Aroma</title>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- home css -->
+    <link rel="stylesheet" href="./assets/src/css/home/home.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+  <!-- main media -->
+  <link rel="stylesheet" href="./assets/src/css/media.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./assets/src/css/main.css">
+  <!-- blog -->
+   <link rel="stylesheet" href="./assets/src/css/blog/blog.css">
+  <link rel="icon" href="./assets/images/logo.png.webp">
+
+
+</head>
+
+<body>
+
+<!-- start navbar -->
+  <nav class="nav">
+    <div class="container">
+
+        <a href="./index.html">
+          <img src="./assets/images/logo.png.webp" alt="logo-aroma">
+        </a>
+  
+        <input id="checkbox" hidden type="checkbox">
+        <label for="checkbox">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </label>
+      
+ 
+         <ul class="nav-links">
+   
+           <li><a class="active" href="./index.html">Home</a></li>
+           <li><a href="#">Shop</a>
+   
+              <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./shopCategory.html">Shop Category</a></li>
+                 <li><a href="./productDetails.html">Product Details</a></li>
+                 <li><a href="./productCheckout.html">Product Checkout</a></li>
+                 <li><a href="./confirmation.html">Confirmation</a></li>
+                 <li><a href="#">Shopping Cart</a></li>
+               </ul>
+             </div>
+   
+           </li>
+   
+           <li><a href="#">Blog</a>
+   
+               <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./blog.html">Blog</a></li>
+                 <li><a href="#">Blog Details</a></li>
+               </ul>
+             </div>
+           
+           </li>
+           <li><a href="#">Pages</a>
+              <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./login.html">Login</a></li>
+                 <li><a href="./register.html">Register</a></li>
+                 <li><a href="./tracking.html">Tracking</a></li>
+               </ul>
+             </div>
+           </li>
+           <li><a href="./contact.html">Contact</a></li>
+   
+         </ul>
+   
+         <div class="nav-info">
+   
+           <div class="nav-cart">
+             <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
+                 viewBox="0 0 16 16">
+                 <path
+                   d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+               </svg></span>
+             <span class="counter"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                 class="bi bi-cart3" viewBox="0 0 16 16">
+                 <path
+                   d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+               </svg></span>
+           </div>
+           <a href="#" class="btn-nav">Buy Now</a>
+         </div>
+       
+
+    </div>
+  </nav>
+
+  <!-- end navbar -->
+
+
+
+
+  <!-- start header product details -->
+
+    <div class="header-details">
+        <div class="container d-flex justify-content-center align-items-center h-100 flex-column">
+            <h1 class="text-black fw-bold">Blog Details</h1>
+            <p class="text-secondary">Home-Blog Details </p>
+        </div>
+    </div>
+
+  <!-- end header product details -->
+
+
+
+   <section class="blog-details pt-5 pb-5">
+
+    <div class="container">
+
+        <div class="row">
+
+                     <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12 col-sm-12 g-5 mt-0">
+
+                        <div class="row g-5 ">
+                            <div class="col-12 ">
+                                <img class="w-100" src="./assets/images/feature.webp" alt="mountine">
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+
+                                    <div class="col-xxl-3 col-xl-3 col-sm-12 d-flex flex-wrap flex-column gap-4 align-items-end ">
+                                        
+                                            <div>
+                                                <a href="#" class="text-black">Food</a>
+                                                <a href="#" class="main-color">Technology</a>
+                                                <div>
+                                                    <a href="#" class="text-black">Politics</a>
+                                                    <a href="#" class="text-black">Lifestyle</a>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="blog-info-link">
+                                                <p class="d-flex gap-3 flex-wrap align-items-end"><span class="text-secondary flex-grow-1">Mark wiens</span><i
+                                                        class="fs-6 fa-regular fa-user"></i></p>
+                                                <p class="d-flex gap-3 align-items-end"><span class="text-secondary flex-grow-1">12 Dec, 2017 </span><i
+                                                        class="fs-6 fa-solid fa-calendar-days"></i></p>
+                                                <p class="d-flex gap-3 align-items-end"><span class="text-secondary flex-grow-1">1.2M Views </span><i
+                                                        class="fs-6 fa-regular fa-eye"></i></p>
+                                                <p class="d-flex gap-3 align-items-end"><span class="text-secondary flex-grow-1">06 Comments </span><i
+                                                        class="fs-6 fa-regular fa-comment"></i></p>
+                                        
+                                            </div>
+                                            <ul class=" socials d-flex gap-3 text-end">
+                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                                            </ul>
+
+                                    </div>
+
+                                    <div class=" col-xxl-9 col-xl-9 col-sm-12">
+                                         <h3 class="fw-bold">Astronomy Binoculars A Great Alternative</h3>
+                                          <p class="text-secondary">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+                                          <p class="text-secondary">Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed</p>
+                                          <p class="text-secondary">Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 shadow-sm p-3">
+                                <p class=" text-secondary fst-italic ">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend
+                                    money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who
+                                    has the willpower to actually sit through a self-imposed MCSE training.</p>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <div class="row">
+                                <div class="col-xxl-6 col-xl-6 col-sm-12">
+                                    <img class="w-100" src="./assets/images/blog-d.webp" alt="blog">
+
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-sm-12">
+                                    <img class="w-100" src="./assets/images/blog-d (2).webp" alt="blog">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <p class="text-secondary">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.</p>
+                            <p class="text-secondary">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.</p>
+                        </div>
+
+                        <!-- stop here -->
+                        <!-- stop here -->
+                        <!-- stop here -->
+
+
+                        
+
+
+
+
+
+
+
+
+
+                     </div>
+                  
+
+                   
+
+                
+                  <!-- Done -->
+                    <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 ">
+                         <div class="row p-4 gap-4 special-bg border ">
+                          <div class="col-12 text-center d-flex justify-content-center flex-wrap align-items-center position-relative border-bottom pb-4">
+                            <input type="text" class="special-search p-2 ps-4 w-75   text-white" placeholder="Search Posts">
+                            <button class="p-2 ps-sm-5 ps-4 flex-grow-1"><i class="fa-solid fa-magnifying-glass "></i></button>
+                          </div>
+                          <div class="col-12 text-center d-flex flex-column justify-content-center align-items-center border-bottom pb-4">
+                            
+                              <img class="image-size" src="./assets/images/author.webp" alt="author">
+                               
+                              <div class="text">
+                                <h5>Charlie Barber</h5>
+                                <p class="text-secondary">Senior blog writer</p>
+                              </div>
+
+                              
+                                <ul class=" socials d-flex gap-3">
+                                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                  <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                                </ul>
+
+                                <p class="text-secondary">Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on
+                                  boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+                            
+                           
+                            
+
+                          </div>
+                          <div class="col-12">
+                            <h6 href="#" class="h6 fw-bold rounded-0 text-white text-center pt-2 pb-2">Popular Posts</h6>
+                          </div>
+                          <div class="col-12 border-bottom pb-4">
+                            <div class="row gap-4">
+                              <div class=" flex col-xxl-4 col-xl-4 col-sm-12 d-flex  w-100 align-items-center gap-2  ">
+                                <div>
+                                  <img src="./assets/images/post1.webp" alt="post">
+                                </div>
+                                <div class="d-flex flex-column w-100 flex-wrap">
+                                  <h6 class="text-black fw-bold">Space The Final Frontier</h6>
+                                  <span class="text-sm-size text-secondary">02 Hours ago</span>
+                                </div>
+                              </div>
+                              <div class="flex col-xxl-4 col-xl-4 col-sm-12 d-flex  w-100 align-items-center gap-2 ">
+                                <div>
+                                  <img src="./assets/images/post2.webp" alt="post">
+                                </div>
+                                <div class="d-flex flex-column w-100 flex-wrap">
+                                  <h6 class="text-black fw-bold">Space The Final Frontier</h6>
+                                  <span class="text-sm-size text-secondary">02 Hours ago</span>
+                                </div>
+                              </div>
+                              <div class=" flex col-xxl-4 col-xl-4 col-sm-12 d-flex  w-100 align-items-center gap-2   ">
+                                <div>
+                                  <img src="./assets/images/post3_1.webp" alt="post">
+                                </div>
+                                <div class="d-flex flex-column w-100 flex-wrap">
+                                  <h6 class="text-black fw-bold">Space The Final Frontier</h6>
+                                  <span class="text-sm-size text-secondary">02 Hours ago</span>
+                                </div>
+                              </div>
+                              <div class=" flex col-xxl-4 col-xl-4 col-sm-12 d-flex  w-100 align-items-center gap-2   ">
+                                <div>
+                                  <img src="./assets/images/post4_1.webp" alt="post">
+                                </div>
+                                <div class="d-flex flex-column w-100 flex-wrap">
+                                  <h6 class="text-black fw-bold">Space The Final Frontier</h6>
+                                  <span class="text-sm-size text-secondary">02 Hours ago</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12  border-bottom pb-4">
+                            <img class="w-100" src="./assets/images/add.webp" alt="random">
+                          </div>
+                           <div class="col-12">
+                            <h6 href="#" class="h6 fw-bold rounded-0 text-white text-center pt-2 pb-2">Post Catgories</h6>
+                          </div>
+
+                          <!-- stop here => Done -->
+
+                          <div class="col-12 d-flex gap-2 flex-column border-bottom pb-4 ">
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Technology</span> <span>37</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Lifestyle</span> <span>24</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Fashion</span> <span>59</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Art </span> <span>29</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Food</span> <span>15</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Architecture</span> <span>09</span></a></p>
+                            <p class="border-dotted pb-2"><a href="#" class="text-secondary d-flex align-items-center justify-content-between w-100 text-sm-size"><span >Adventure</span> <span>44</span></a></p>
+                          
+                          </div>
+
+
+                            <div class="col-12">
+                            <h6 href="#" class="h6 fw-bold rounded-0 text-white text-center pt-2 pb-2">Newsletter</h6>
+                          </div>
+                          
+                          <div class="col-12 text-center" >
+                            <p class="text-secondary">Here, I focus on a range of items and features that we use in life without giving them a second thought.</p>
+                          </div>
+
+                          <div class="col-12 position-relative d-flex justify-content-center text-center flex-wrap">
+                            <input type="text" class=" border-0 p-1 ps-2 text-sm-size flex-grow-1" placeholder="Enter Email">
+                            <a href="#" class="flex-grow-1 sub text-white text-sm-size d-flex align-items-center p-1">Subcribe</a>
+                          </div>
+
+                          <div class="col-12 text-center border-bottom pb-4">
+                            <p class="text-secondary text-sm-size">You can unsubscribe at any time</p>
+                          </div>
+
+                                <div class="col-12">
+                            <h6 href="#" class="h6 fw-bold rounded-0 text-white text-center pt-2 pb-2">Tag Clouds</h6>
+                          </div>
+
+                          <div class="col-12 font-sm d-flex flex-wrap gap-2">
+                            
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Technology</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Fashion</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Architecture</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Fashion</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Food</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Technology</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Lifestyle</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Art</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Adventure</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Food</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Lifestyle</a>
+                            <a href="#" class=" border-1 flex-grow-1 bg-white text-black p-1">Adventure</a>
+                          
+                          </div>
+                          
+
+
+                         </div>
+                    </div>
+                    <!-- Done -->
+            </div>
+
+
+        </div>
+    </div>
+
+   </section>
+
+
+
+
+   <section class="position-relative instagram-photo">
+    <div class="container-fluid">
+      <div class="row ">
+          <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins (6).webp" alt="instagram-photo">
+        </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins (4).webp" alt="instagram-photo0">
+        </div>
+        
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins (2).webp" alt="instagram-photo">
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins.webp" alt="instagram-photo">
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins (3).webp" alt="instagram-photo">
+        </div>
+      
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 p-0 overflow-hidden">
+          <img class="w-100 h-100 " src="./assets/images/ins (5).webp" alt="instagram-photo">
+        </div>
+      
+
+      </div>
+    </div>
+
+    <a href="#"class=" text-black follow-link bg-white rounded pt-2 pb-2 ps-3 pe-3">Follow us on insagram</a>
+
+   </section>
+
+   
+ 
+
+
+
+
+
+
+
+<!-- start footer -->
+<footer class="footer p-lg-5  pt-5 ">
+  <div class="container d-flex justify-content-center align-items-center mt-5 ">
+    <div class="row">
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h3 class="text-light fw-bolder mt-3">Our Mission</h3>
+        <p class="text-secondary">So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.</p>
+        <p class="text-secondary">So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved</p>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-5 ">
+        <h5 class="text-light fw-bolder mt-3">Quick Links</h5>
+        <ul class="d-flex flex-column gap-3 ">
+          <li><a class="text-secondary" href="#">Home</a></li>
+          <li><a class="text-secondary" href="#">Shop</a></li>
+          <li><a class="text-secondary" href="#">Blog</a></li>
+          <li><a class="text-secondary" href="#">Product</a></li>
+          <li><a class="text-secondary" href="#">Brand</a></li>
+          <li><a class="text-secondary" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h5 class="text-light fw-bolder mt-3 ">Gallery</h5>
+        <ul class="image-holder">
+          <li><img src="./assets/images/r1.webp" alt="person"></li>
+            <li><img src="./assets/images/r3.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r3.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r5.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r7.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r8.webp" alt="person"> </li> 
+         
+        </ul>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h5 class="text-light fw-bolder mt-3">Contact Us</h5>
+
+        <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-location-arrow text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light mt-3">Head Office</h6>
+            <address class="text-secondary text-break">123, Main Street, Your City</address>
+          </div>
+        </div>
+         <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-phone text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light ">Head Office</h6>
+            <p class="text-secondary">+123 456 7890</p>
+            <p class="text-secondary">+123 456 7890</p>
+          </div>
+        </div>
+         <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-envelope text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light">Head Office</h6>
+             <p class="text-secondary text-break ">free@infoexample.com</p>
+             <p class="text-secondary text-break  ">www.infoexample.com</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<div class="copy-rihgt text-light text-center pt-5 pb-5 p-2">Copyright ©2025 All rights reserved | This template is made with🤍 By Mohammed Alqerem</div>
+<!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
