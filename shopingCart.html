@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shop the latest fashion, trending products, and best deals at Aroma Store. Fast delivery, secure checkout, and exclusive offers await you.">
+<meta name="keywords" content="Aroma, eCommerce, Store, Shop, Online Shopping, Fashion, Trending Products">
+  <title>Aroma</title>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- home css -->
+    <link rel="stylesheet" href="./assets/src/css/home/home.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+  <!-- main media -->
+  <link rel="stylesheet" href="./assets/src/css/media.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./assets/src/css/main.css">
+  <link rel="icon" href="./assets/images/logo.png.webp">
+
+
+</head>
+
+<body>
+
+<!-- start navbar -->
+  <nav class="nav">
+    <div class="container">
+
+        <a href="./index.html">
+          <img src="./assets/images/logo.png.webp" alt="logo-aroma">
+        </a>
+  
+        <input id="checkbox" hidden type="checkbox">
+        <label for="checkbox">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </label>
+      
+ 
+         <ul class="nav-links">
+   
+           <li><a class="active" href="./index.html">Home</a></li>
+           <li><a href="#">Shop</a>
+   
+              <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./shopCategory.html">Shop Category</a></li>
+                 <li><a href="./productDetails.html">Product Details</a></li>
+                 <li><a href="./productCheckout.html">Product Checkout</a></li>
+                 <li><a href="./confirmation.html">Confirmation</a></li>
+                 <li><a href="#">Shopping Cart</a></li>
+               </ul>
+             </div>
+   
+           </li>
+   
+           <li><a href="#">Blog</a>
+   
+               <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./blog.html">Blog</a></li>
+                 <li><a href="./blogDetails.html">Blog Details</a></li>
+               </ul>
+             </div>
+           
+           </li>
+           <li><a href="#">Pages</a>
+              <div class="mega-menu">
+               <ul class="links">
+                 <li><a href="./login.html">Login</a></li>
+                 <li><a href="./register.html">Register</a></li>
+                 <li><a href="./tracking.html">Tracking</a></li>
+               </ul>
+             </div>
+           </li>
+           <li><a href="./contact.html">Contact</a></li>
+   
+         </ul>
+   
+         <div class="nav-info">
+   
+           <div class="nav-cart">
+             <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
+                 viewBox="0 0 16 16">
+                 <path
+                   d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+               </svg></span>
+             <span class="counter"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                 class="bi bi-cart3" viewBox="0 0 16 16">
+                 <path
+                   d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+               </svg></span>
+           </div>
+           <a href="#" class="btn-nav">Buy Now</a>
+         </div>
+       
+
+    </div>
+  </nav>
+
+  <!-- end navbar -->
+
+
+
+
+  <!-- start header product details -->
+
+    <div class="header-details">
+        <div class="container d-flex justify-content-center align-items-center h-100 flex-column">
+            <h1 class="text-black fw-bold">Shopping Cart</h1>
+            <p class="text-secondary">Home-Shopping Cart </p>
+        </div>
+    </div>
+
+  <!-- end header product details -->
+
+
+
+   <section class="mt-5 mb-5">
+
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody >
+                <tr>
+                    <td class="d-flex align-items-center gap-3 flex-wrap">
+                        <img src="./assets/images/cart1.png" alt="cart-item">
+                        <p class="text-secondary">Minimalistic shop for multipurpose use</p>
+                    </td>
+                    <td><span class="mt-4 d-block ">$360.00</span></td>
+                    <td>
+                        <input type="number" class="mt-4 w-50 ps-2" value="1">
+                    </td>
+                <td>
+                    <span class="mt-4 d-block ">$720.00</span>
+                </td>
+                </tr>
+                 <tr>
+                    <td class="d-flex align-items-center gap-3 flex-wrap">
+                        <img src="./assets/images/cart2.png" alt="cart-item">
+                        <p class="text-secondary">Minimalistic shop for multipurpose use</p>
+                    </td>
+                    <td><span class="mt-4 d-block ">$360.00</span></td>
+                    <td>
+                        <input type="number" class="mt-4 w-50 ps-2" value="1">
+                    </td>
+                <td>
+                    <span class="mt-4 d-block ">$720.00</span>
+                </td>
+                </tr>
+                 <tr>
+                    <td class="d-flex align-items-center gap-3 flex-wrap">
+                        <img src="./assets/images/cart3.png" alt="cart-item">
+                        <p class="text-secondary">Minimalistic shop for multipurpose use</p>
+                    </td>
+                    <td><span class="mt-4 d-block ">$360.00</span></td>
+                    <td>
+                        <input type="number" class="mt-4 w-50 ps-2" value="1">
+                    </td>
+                <td>
+                    <span class="mt-4 d-block ">$720.00</span>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+       
+      </div>
+       <div class="row gap-3">
+            <div class="col-12 d-flex align-items-center gap-3 justify-content-between flex-wrap border-bottom pt-3 pb-5">
+                <a href="#" class="cart-btn text-black">Update Cart</a>
+                <div class="d-flex align-items-center gap-3 flex-wrap" >
+                    <input type="text" class="rounded-5 input-group-sm border p-1 ps-2" placeholder="Coupon Code">
+                    <a href="#" class="main-btn d-block pt-1 pb-1 ps-4 pe-4">Apply</a>
+                    <a href="#" class="cart-btn text-black">Have Coupon?</a>
+
+
+                </div>
+            </div>
+            <div class="col-12 d-flex align-items-center gap-3 justify-content-end flex-wrap border-bottom pt-3 pb-5">
+                 <div class="d-flex align-items-center gap-5  flex-wrap pt-3 ">
+                     <span class="d-block text-black me-5 fw-bold">Subtotal</span>
+
+                     <span class="d-block text-black fw-bold">$2160.00</span>
+                 </div>
+            </div>
+            <div class="col-12 ">
+
+                <div class="d-flex align-items-start gap-5 justify-content-end flex-wrap pt-3 ">
+                     <span class="d-block text-black me-5 fw-bold">Subtotal</span>
+
+                    <div class="d-flex flex-column gap-3">
+                        <div>
+                            <label for="a1" class="text-secondary">Flat Rate: $5.00</label>
+                            <input type="radio" id="a1">
+                        </div>
+                         <div>
+                            <label for="a2" class="text-secondary">Flat Rate: $5.00</label>
+                            <input type="radio" id="a2">
+                        </div>
+                         <div>
+                            <label for="a3" class="text-secondary">Flat Rate: $5.00</label>
+                            <input type="radio" id="a3">
+                        </div>
+                         <div>
+                            <label for="a4" class="text-secondary">Flat Rate: $5.00</label>
+                            <input type="radio" id="a4">
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="col-12">
+                <h6 class="text-black text-end fw-bold mt-3 mb-3">Calculate Shipping </h6>
+                <div class="d-flex gap-3 flex-column flex-wrap align-items-end">
+                    <div class="dropdown bg-second fit-content rounded ps-2 pe-2">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            select
+                        </button>
+                        <ul class="dropdown-menu  dropdown-menu">
+                            <li><a class="dropdown-item active" href="#">Bangladesh</a></li>
+                            <li><a class="dropdown-item" href="#">India</a></li>
+                            <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                        </ul>
+                    </div>
+                     <div class="dropdown bg-second fit-content rounded ps-2 pe-2">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            select
+                        </button>
+                        <ul class="dropdown-menu  dropdown-menu">
+                            <li><a class="dropdown-item active" href="#">Bangladesh</a></li>
+                            <li><a class="dropdown-item" href="#">India</a></li>
+                            <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                        </ul>
+                    </div>
+                     <div class="dropdown bg-second fit-content rounded ps-2 pe-2">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            select
+                        </button>
+                        <ul class="dropdown-menu  dropdown-menu">
+                            <li><a class="dropdown-item active" href="#">Bangladesh</a></li>
+                            <li><a class="dropdown-item" href="#">India</a></li>
+                            <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="cart-btn bg-second fit-content text-black">Update Details</a>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-wrap gap-3 justify-content-end">
+
+            <a href="#" class="cart-btn bg-second fit-content text-black">Continue Shopping</a>
+            <a href="#" class="main-btn pt-2 pb-2 ps-3 pe-3  fit-content ">Proceed to checkout</a>
+
+            </div>
+        </div>
+    </div>
+
+   </section>
+
+
+
+  
+
+
+
+  
+   
+ 
+
+
+
+
+
+
+
+<!-- start footer -->
+<footer class="footer p-lg-5  pt-5 ">
+  <div class="container d-flex justify-content-center align-items-center mt-5 ">
+    <div class="row">
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h3 class="text-light fw-bolder mt-3">Our Mission</h3>
+        <p class="text-secondary">So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.</p>
+        <p class="text-secondary">So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved</p>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-5 ">
+        <h5 class="text-light fw-bolder mt-3">Quick Links</h5>
+        <ul class="d-flex flex-column gap-3 ">
+          <li><a class="text-secondary" href="#">Home</a></li>
+          <li><a class="text-secondary" href="#">Shop</a></li>
+          <li><a class="text-secondary" href="#">Blog</a></li>
+          <li><a class="text-secondary" href="#">Product</a></li>
+          <li><a class="text-secondary" href="#">Brand</a></li>
+          <li><a class="text-secondary" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h5 class="text-light fw-bolder mt-3 ">Gallery</h5>
+        <ul class="image-holder">
+          <li><img src="./assets/images/r1.webp" alt="person"></li>
+            <li><img src="./assets/images/r3.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r3.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r5.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r7.webp" alt="person"> </li> 
+            <li><img src="./assets/images/r8.webp" alt="person"> </li> 
+         
+        </ul>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <h5 class="text-light fw-bolder mt-3">Contact Us</h5>
+
+        <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-location-arrow text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light mt-3">Head Office</h6>
+            <address class="text-secondary text-break">123, Main Street, Your City</address>
+          </div>
+        </div>
+         <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-phone text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light ">Head Office</h6>
+            <p class="text-secondary">+123 456 7890</p>
+            <p class="text-secondary">+123 456 7890</p>
+          </div>
+        </div>
+         <div class="text-info d-flex gap-2 align-items-start">
+          <span><li class="fa fa-envelope text-light"></li></span>
+          <div class="text ">
+            <h6 class="text-light">Head Office</h6>
+             <p class="text-secondary text-break ">free@infoexample.com</p>
+             <p class="text-secondary text-break  ">www.infoexample.com</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<div class="copy-rihgt text-light text-center pt-5 pb-5 p-2">Copyright ©2025 All rights reserved | This template is made with🤍 By Mohammed Alqerem</div>
+<!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

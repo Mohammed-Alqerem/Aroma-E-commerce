@@ -429,3 +429,21 @@ textarea{
 
 
 /* end top-produt */
+
+
+
+
+.cart-btn{
+    background-color: #fafaff;
+    padding:  10px 25px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.bg-second{
+        background-color: #f1f6f7;
+
+}
