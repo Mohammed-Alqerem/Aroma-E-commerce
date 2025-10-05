@@ -1,4 +1,4 @@
-# English-only README.md for Aroma E-commerce
+# Aroma E-commerce
 content_en = """# Aroma — E-commerce Landing
 
 ## Project Overview
