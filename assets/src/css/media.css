@@ -1,6 +1,6 @@
 
 @media screen and (max-width:1200px) {
- 
+  
     /* start navbar */
     .nav .container{
         text-align: center;
@@ -12,7 +12,13 @@
         width: 100%;
         text-align: start;
         gap: 10px;
-        display: none ;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--white, #fff);
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     .nav label{
@@ -23,7 +29,7 @@
         margin-top: 8px;
      }
     .nav-info{
-   
+    
     justify-content: flex-start !important;
     width: 100%;  
     display: none !important;
@@ -34,18 +40,68 @@
       display: flex !important; 
   }
 
-  /* To DO */
   .nav .nav-links li:hover .mega-menu{
-
     display: inherit !important;
-    position:  unset !important;
-     width: 100%;
+    position: unset !important;
+    width: 100%;
+  }
+
+  .nav-links li{
+     width: 200px;
+  }
+
+  /* end navbar */
+
 }
 
-.nav-links li{
-   width: 200px;
+@media screen and (max-width: 768px) {
+    .header .text-header h1 {
+        font-size: 2rem !important;
+    }
+    
+    .text-header {
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .trending-product .text-start,
+    .best-sellers .text-start,
+    .latest-news .text-start {
+        text-align: center !important;
+    }
+    
+    .footer .ps-5 {
+        padding-left: 0 !important;
+    }
+    
+    .footer .text-info {
+        margin-bottom: 15px;
+    }
 }
 
-      /* end navbar */
-
+@media screen and (max-width: 576px) {
+    .header .text-header h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    .header .text-header h2 {
+        font-size: 1rem !important;
+    }
+    
+    .main-btn {
+        padding: 12px 30px !important;
+        font-size: 0.9rem;
+    }
+    
+    .winter-sale h4 {
+        font-size: 2rem !important;
+    }
+    
+    .winter-sale h5 {
+        font-size: 1.25rem !important;
+    }
+    
+    .contact-us .container {
+        padding: 30px 15px !important;
+    }
 }
