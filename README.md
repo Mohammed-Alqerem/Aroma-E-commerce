@@ -1,6 +1,6 @@
 # 🛍️ Aroma E-Commerce
 
-A modern and fully responsive e-commerce website built with HTML, CSS, and JavaScript.
+A modern and fully responsive e-commerce website built with HTML, CSS, and bootstrap.
 
 🔗 **Live Demo:** [mohammed-alqerem.github.io/Aroma-E-commerce](https://mohammed-alqerem.github.io/Aroma-E-commerce/)
 
@@ -47,7 +47,7 @@ A modern and fully responsive e-commerce website built with HTML, CSS, and JavaS
 
 - HTML5
 - CSS3
-- JavaScript
+- bootstrap
 
 ---
 
@@ -81,7 +81,7 @@ Aroma-E-commerce/
 └── assets/
     ├── images/
     ├── css/
-    └── js/
+   
 ```
 
 ---
