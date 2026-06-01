@@ -1,34 +1,91 @@
-# Aroma E-commerce
-content_en = """# Aroma — E-commerce Landing
+# 🛍️ Aroma E-Commerce
 
-## Project Overview
-A modern and responsive e-commerce template built with **HTML**, **CSS**, and **Bootstrap**.  
-Designed to showcase products with a clean UI and smooth navigation — perfect for portfolios or small demo stores.
+A modern and fully responsive e-commerce website built with HTML, CSS, and JavaScript.
 
-### Live Demo
-🔗 [Aroma E-commerce](https://mohammed-alqerem.github.io/Aroma-E-commerce/)
+🔗 **Live Demo:** [mohammed-alqerem.github.io/Aroma-E-commerce](https://mohammed-alqerem.github.io/Aroma-E-commerce/)
 
 ---
 
-## Features
-- Fully responsive layout (Bootstrap grid)
-- Product listing cards with images and prices
-- Hero banner / product slider
-- Product detail modal or page
-- Contact and subscription form (frontend only)
-- Mobile-friendly navigation and footer
+## 📸 Preview
+
+![Aroma Store](https://mohammed-alqerem.github.io/Aroma-E-commerce/assets/images/hero-banner.png.webp)
 
 ---
 
-## Tech Stack
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5**
-- *(Optional)* Vanilla JavaScript for interactivity
+## 📄 Pages
+
+| Page | Description |
+|------|-------------|
+| Home | Landing page with hero banner, trending & best-seller products |
+| Shop Category | Browse products by category |
+| Product Details | Detailed view for a single product |
+| Shopping Cart | View and manage cart items |
+| Checkout | Complete a purchase |
+| Confirmation | Order confirmation screen |
+| Blog | Latest news and articles |
+| Blog Details | Full blog post view |
+| Login | User login page |
+| Register | New user registration |
+| Tracking | Order tracking page |
+| Contact | Contact form and info |
 
 ---
 
-## Installation & Usage
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mohammed-alqerem/Aroma-Ecommerce.git
+## ✨ Features
+
+- Responsive design (mobile-friendly)
+- Hero banner with product highlights
+- Trending products & best sellers sections
+- Winter sale promotional banner (up to 50% off)
+- Newsletter subscription
+- Blog / news section
+- Multi-page navigation
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/mohammed-alqerem/Aroma-E-commerce.git
+
+# Open in browser
+open index.html
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Aroma-E-commerce/
+├── index.html
+├── shopCategory.html
+├── productDetails.html
+├── shopingCart.html
+├── confirmation.html
+├── blog.html
+├── blogDetails.html
+├── login.html
+├── register.html
+├── tracking.html
+├── contact.html
+└── assets/
+    ├── images/
+    ├── css/
+    └── js/
+```
+
+---
+
+## 📬 Contact
+
+Made with 🤍 by **Mohammed Alqerem**
